@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  </style>
+
+  <title>
+    
+      Joe's Webpage
+    
+  </title>
+
+  <link type="application/atom+xml" rel="alternate" href="/feed.xml" title="Joe's Webpage" />
+
+  <link rel="shortcut icon" type="image/x-icon" href="/./logo.png" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body>
+    <main class="page-content" aria-label="Content">
+        <div class="wrapper">
+            <p><a href="/">..</a></p>
+
+<div class="container" id="copyright"></div>
+
+<script>
+  const paragraph = `
+  <p><strong>
+    &copy; ${new Date().getFullYear()} Joseph Gignac. All Rights Reserved
+  </strong></p>
+`;
+document.getElementById('copyright').innerHTML = paragraph;
+</script>
+        </div>
+    </main>
+    </body>
+</html>
